@@ -12,7 +12,7 @@ if (!databaseUri) {
 }
 
 var api = new ParseServer({
-  databaseURI: databaseUri || 'mongodb://scott:1qaz@WSX@ds121464.mlab.com:21464/trip-share-backend',
+  databaseURI: databaseUri || 'mongodb://janstin:mscsTrip690@ds062448.mlab.com:62448/tripsharin',
   cloud: process.env.CLOUD_CODE_MAIN || __dirname + '/cloud/main.js',
   appId: process.env.APP_ID || 'CfZTKqtflDp4wnQR5KtlmbVzk9coaFPz',
   masterKey: process.env.MASTER_KEY || 'sKrVKQYdnw4HepWOiBbV1Qz8RrTjbEKN', //Add your master key here. Keep it secret!
