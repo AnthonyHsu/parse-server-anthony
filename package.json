@@ -17,7 +17,7 @@
     "parse-server": "*"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\"",
+    "test": "mocha",
     "start": "node index.js"
   },
   "engines": {
