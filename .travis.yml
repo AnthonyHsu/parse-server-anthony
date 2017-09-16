@@ -1,9 +1,10 @@
-#deploy:
-#  provider: heroku
-#  api_key:
-#    secure: sKrVKQYdnw4HepWOiBbV1Qz8RrTjbEKN
-#  app: CfZTKqtflDp4wnQR5KtlmbVzk9coaFPz
-
 language: node_js
 node_js:
-  - 0.12
+- 0.12
+deploy:
+  provider: heroku
+  api_key:
+    secure: Tlz+e6H4jAZ6q5ysEhXf1OghTKt2PKDGNvDcHubhXWZPv1vn6qzkfimW+qGQ4Pg03EczEMQS1HZD+MKNRJBbZZKLM3HWIOekX+Y5L1eh+Ob7I26XdYj6abwtxhrQO9lzysylzRm5fHXRKlBn1OdxNJwFqD9HHEQOSi70SkdfX5yc8u4tYaefCgp2JjBabL72pkAZ4mcJc1pQTE5T+pbjND83N+eScz5EQJrGAMeuC2YXvvpyAV94zF883Csdta0jhuGrZHhCj++VjwmVu22NlWPQ4OwE4eOiwxsvsJ9L4CZbkDI/r79IWIhSBz1sXKbv2dK2nT8X/2W2LXxdIk6/JuLGxAEQtSCfbRkhDZk+p39WAqUlzG5KWt0ossNkClCR/imLAsP96E2DjMDKd6hM7trRLA/ApOXN5aC/OdXkB5q/8aaqjvcjRX19ddOq6HTqdgrBf3LdFXHFq9LyPI+gK5KdzYX1x98LHJC9vaGEpA7zNhJbkXhfz5WQafXpy2qSCwhI7WbP4+vT/Y9Yc4df8xKMf8Wc5dvz9Ca6dQ/z8t5kbzPEmwbWXxymo1VQlDOcX4uGsb1PGAt1Xt4CYVIxi5Ah/SfIVgIOJAIKwikOYmzJFMGZ7Srj4xe0+vs69zxEN5GTCs+PEVtf4dCaah7fDrnCldczZvzEJh/LGzkcisY=
+  app: parse-server-anthony
+  on:
+    repo: AnthonyHsu/parse-server-anthony
