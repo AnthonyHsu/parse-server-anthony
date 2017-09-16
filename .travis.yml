@@ -3,3 +3,7 @@ deploy:
   api_key:
     secure: XczGo3b9bcDsQoazfrDDTlCC7WljGWNoqrkLkJp1eYArH9F5GYtnnlupb3LCR/Q2tpfv0CdqOoJugv1zhdBwtPA+mLg+x4DCYiQy7R5/ztxiUg2uywjBlOoGqQNvm52bjnWkEzAPVVwnFlUaIDlDzR6dN9h10k7di6zoCfJdghgKJ2c7HxbPgv8rpMPUU+vfK8XMnqimRpgj099tAJeZLhXazdY0Qd1bjS+HMBIn/pPbc9heeby7iMzpN8yPi4+cLeu8uyXmipCZACvx2pU2IKG8WdHhu2hpcVYVsf+uI0fCx8FDsDMUfW/GarsbJ65ZUZtmM7oXhVO6JIwZBtL6mDSRJl0juldEeVYvqmiYGPJfdZrrDFOu8Kz4/spGocL+aTW0ZDz+uZJjHF2/XXssSHdvbsmtH2X1qsKLTFfzIjHaTYL/CmD/NSJnBNuzR9+O/+BxYW14rslWrEJhH1z7n5XIm3oqQP9ZBBpVdA+O107P1n7Cq8jpcL6h2eZI0tODsdErObmvWoY8AgMV/TTgSK3zMdczo+w6mwA2iug2lB+bzo/rap/I6TnjixEEfmBW1oBgXTtk7hWXVeu2LP/LBOGw9emyEdI9s/bP6BYP3pLgii/o0W+WAsE9qOjOTqUNax9zmq6+SbsIEXKgW7WBOStlc+H1///7pmt4Dg/y7s0=
   app: CfZTKqtflDp4wnQR5KtlmbVzk9coaFPz
+
+language: node_js
+node_js:
+  - 0.12
