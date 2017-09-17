@@ -1,4 +1,4 @@
-var message = require('cloud/message.js');
+var message = require('message.js');
 
 Parse.Cloud.define('get_message', function (req, res) {
   message.getMessage(request, response);
